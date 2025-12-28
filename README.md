@@ -61,30 +61,6 @@ Each child prefetcher is treated as an independent “arm” in the bandit formu
 
 The design is inspired by prior work on bandit-based prefetch control, but differs in its integration, state representation, and reward formulation.
 
----
-
-## Repository Structure
-
-.
-├── src/
-│   ├── mem/
-│   │   └── MLPrefetchController.{hh,cc}
-│   └── python/
-│       └── ML_prefetch.py
-├── configs/
-│   └── custom_cache_configs.py
-├── benchmarks/
-│   ├── microbenchmarks/
-│   └── machsuite/
-├── scripts/
-│   ├── run_experiments.sh
-│   └── parse_stats.py
-├── results/
-│   ├── raw_stats/
-│   └── plots/
-├── README.md
-
-
 ## Building and Running
 
 ### Prerequisites
