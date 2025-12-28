@@ -67,21 +67,21 @@ The design is inspired by prior work on bandit-based prefetch control, but diffe
 
 .
 ├── src/
-│ ├── mem/
-│ │ └── MLPrefetchController.{hh,cc}
-│ └── python/
-│ └── ML_prefetch.py
+│   ├── mem/
+│   │   └── MLPrefetchController.{hh,cc}
+│   └── python/
+│       └── ML_prefetch.py
 ├── configs/
-│ └── custom_cache_configs.py
+│   └── custom_cache_configs.py
 ├── benchmarks/
-│ ├── microbenchmarks/
-│ └── machsuite/
+│   ├── microbenchmarks/
+│   └── machsuite/
 ├── scripts/
-│ ├── run_experiments.sh
-│ └── parse_stats.py
+│   ├── run_experiments.sh
+│   └── parse_stats.py
 ├── results/
-│ ├── raw_stats/
-│ └── plots/
+│   ├── raw_stats/
+│   └── plots/
 ├── README.md
 
 
